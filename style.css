@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;700&display=swap');
 
 body {
   color: #ffffff;
   width: 1600px;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 16px;
 }
@@ -24,7 +24,6 @@ h3 {
 }
 
 h2 {
-  margin-bottom: 14px;
   margin-left: 7px;
   font-size: 62px;
   line-height: 75px;
@@ -96,7 +95,7 @@ a {
 }
 
 .menu-item:nth-child(3) {
-  padding-left: 41px;
+  padding-left: 46px;
   padding-top: 5px;
 }
 
@@ -120,25 +119,32 @@ a {
   margin-top: -95px;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 744px;
   background: url(assets/images/bg-image1.jpg) no-repeat center;
 }
 
 .container-center {
+  margin-top: 231px;
   text-align: center;
 }
 
 .container-center p {
+  margin-top: 21px;
   color: #ffffff;
   font-size: 18px;
   line-height: 140%;
+}
+
+.btn-mail {
+  margin-top: 30px;
+  margin-left: -2px;
 }
 .socials {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 183px;
 }
 
 .socials-list {
@@ -153,7 +159,7 @@ a {
   align-items: center;
 }
 
-.container-info {
+.rappresent-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -161,214 +167,114 @@ a {
   margin-top: 120px;
 }
 
-.task-info {
+.rappresent-idea {
   width: 407px;
   height: 233px;
   text-align: start;
 }
 
-.task-info p {
+.rappresent-idea p {
   margin-top: 20px;
   line-height: 21px;
   color: #4e4e4e;
 }
-.task-info button {
+.rappresent-idea button {
   margin-top: 28px;
   margin-left: -1px;
 }
-/* Footer form*/
-/*
-.form {
-  height: 564px;
-  background-color: #323232;
-  position: relative;
+.community-block {
+  height: 504px;
+  margin-top: 140px;
+  background: #f5f6f7;
 }
 
-.box-form {
+.community-info {
+  margin-left: 269px;
+  text-align: center;
+  width: 298px;
+}
+
+.community-info img {
+  margin-top: 155px;
+}
+
+.community-info h3 {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.4px;
+  margin-top: 16px;
+}
+
+.community-info p {
+  margin-top: 11px;
+}
+
+.implement-wrap {
+  margin-top: 120px;
+  margin-left: 269px;
   display: flex;
 }
 
-.in-touch-form:before {
-  content: "";
-  display: block;
-  width: 94%;
-  height: 1px;
-  background-color: #2b2b2b;
-  top: 13px;
-  left: 30px;
-  position: absolute;
+.implement-info {
+  width: 407px;
+  margin-top: 199px;
+  margin-left: 139px;
 }
 
-.in-touch-form {
-  max-width: 580px;
-  margin-left: 121px;
-  padding-top: 59px;
-}
-
-.in-touch-form fieldset legend {
-  color: #e0e0e0;
-  font-family: "Maven Pro", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-}
-
-.in-touch-form fieldset p {
-  color: #bebebe;
-  font-family: "Maven Pro";
-  font-size: 18px;
-  font-weight: 400;
-}
-
-
-
-.in-touch-form {
-}
-
-.in-touch-form fieldset input {
-  width: 100%;
-  height: 38px;
-  border: none;
-  padding-left: 15px;
-  background-color: #454545;
-}
-
-#form-message {
-  width: 100%;
-  height: 150px;
-  border: none;
-  background-color: #454545;
-  color: #bebebe;
-  margin-top: 16px;
-  padding-left: 13px;
-  padding-top: 10px;
-  font-family: "Lato", sans-serif;
-  font-size: 12px;
-}
-
-#form-message::placeholder {
-  color: #bebebe;
-}
-
-.in-touch-form fieldset input:placeholder {
-  font-size: 12px;
-  font-family: "Lato", sans-serif;
-  color: #bebebe;
-}
-
-.input-text {
+.implement-info p {
   margin-top: 20px;
 }
 
-.input-email {
-  margin-top: 16px;
-  margin-bottom: 16px;
+.implement-info button {
+  margin-top: 32px;
 }
-
-.form-button {
-  width: 90px;
-  height: 37px;
-  background-color: #2eb398;
-  float: right;
-  margin-top: 12px;
-  margin-right: 1px;
-  color: #d7fcf5;
-  font-family: Lato;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
+.form-block {
+  height: 598px;
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  background: url(/assets/images/image-bg.png) no-repeat;
+}
+.form-wrap {
+  margin-top: 217px;
+}
+.form-wrap h3 {
   text-align: center;
-  border: none;
-  cursor: pointer;
+  color: white;
 }
 
-.form-button:hover {
-  transition-duration: 0.4s;
-  cursor: pointer;
-  opacity: 0.8;
-  transform: scale(1.1);
-  box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),
-    0 17px 50px 0 rgba(255, 255, 255, 0.19);
+.contact-form {
+  position: relative;
+  margin-top: 29px;
+  margin-left: 0px;
 }
 
-.form-info {
-  width: 181px;
-  margin-top: 128px;
-  margin-left: 19px;
-  color: #bebebe;
-  font-family: Lato;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.text-info {
-  line-height: 22px;
-  word-spacing: 1px;
-}
-
-.text-info span {
-  font-weight: 900;
-  color: #e0e0e0;
-}
-
-.box-contact {
-  width: 145px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 34px;
-}
-
-.box-contact img {
-  float: left;
-}
-
-.box-contact div {
-  display: flex;
-  align-items: center;
-}
-
-.contact-location {
-  padding-left: 2px;
-}
-
-.box-contact div a,
-.box-contact div p {
-  padding-left: 14px;
-}
-
-.box-contact div a {
-  color: #bebebe;
-  font-family: Lato;
-}
-
-.contact-phone {
-  margin-top: 7px;
-  margin-bottom: 6px;
-}
-
-.in-touch-form::after {
-  content: "";
+.contact-form::after {
+  content: url(/assets/images/fa-check.svg);
   display: block;
-  width: 94%;
-  height: 1px;
-  background-color: #2b2b2b;
-  bottom: 11px;
-  left: 30px;
   position: absolute;
+  top: calc(50% - 6px);
+  right: 23px;
 }
 
-.footer {
-  height: 43px;
-  background-color: #222222;
-  display: flex;
-  align-items: center;
+.contact-form__input {
+  width: 405px;
+  height: 46px;
+  border: none;
+  padding-left: 23px;
+  padding-top: 4px;
 }
 
-.footer p {
-  margin-left: 39px;
-  font-family: "Maven Pro Regular";
-  color: #454545;
-  font-size: 12px;
-  word-spacing: 1px;
+input[type='button'] {
+  border: none;
+  width: 66px;
+  height: 46px;
+  position: absolute;
+  background: #00afdb;
+  right: 0;
+}
+/* 
+input::placeholder {
+  padding-left: 23px;
+  padding-top: 4px;
 } */

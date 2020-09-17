@@ -286,6 +286,7 @@ a {
 .implement-info a {
   margin-top: 29px;
 }
+
 .subscribe-block {
   height: 598px;
   margin-top: 140px;
@@ -293,9 +294,11 @@ a {
   justify-content: center;
   background: url(/assets/images/image-bg.png) no-repeat;
 }
+
 .subscribe-wrap {
   margin-top: 217px;
 }
+
 .subscribe-wrap h3 {
   text-align: center;
   color: white;

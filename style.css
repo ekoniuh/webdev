@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;700&display=swap');
 
 body {
   width: 1600px;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 16px;
 }
@@ -125,8 +125,7 @@ a {
   opacity: 0.8;
 }
 
-.menu-item a:hover:not(.not-hover),
-.menu-item-hover:hover {
+.menu-item a:hover:not(.not-hover) {
   color: #2eb398;
   border-bottom: 2px solid;
   transition: ease-in-out 0.3s;
@@ -327,7 +326,7 @@ a {
   padding-top: 4px;
 }
 
-input[type="button"] {
+input[type='button'] {
   border: none;
   width: 66px;
   height: 46px;
@@ -389,6 +388,7 @@ input[type="button"] {
   align-items: center;
   top: 0;
   right: 0;
+  transition: ease-in-out 0.7s;
 }
 
 .btn-apple::after {
@@ -448,9 +448,15 @@ input[type="button"] {
 .menu-item-footer {
   position: relative;
 }
+
+.menu-item-hover a:hover {
+  border: none;
+  color: #009cc2;
+}
+
 .menu-item-footer:nth-child(1)::after,
 .menu-item-footer:nth-child(2)::after {
-  content: "";
+  content: '';
   display: block;
   width: 8px;
   position: absolute;
